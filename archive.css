@@ -142,6 +142,9 @@ body {
   .buttons{ 
     text-align: center;      
   }
+  .archive{ 
+    text-align: center;      
+  }
   .archive{
     transition: all .2s ease-in-out;
     text-shadow: #000000;
