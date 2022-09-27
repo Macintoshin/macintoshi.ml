@@ -39,7 +39,7 @@ body {
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-image: url(img/Gradient2.png);
+    background-color: #3b3737;
     background-size: cover;
   }
   
@@ -78,7 +78,7 @@ body {
     }
 
   }
-  .Minecraft{
+  .crayons{
     transition: all .2s ease-in-out;
     text-shadow: #000000;
     color: white;
@@ -95,7 +95,7 @@ body {
   margin-bottom:1em;
  display:inline-block;
   }
-  .Tetris{
+  .macgames{
     transition: all .2s ease-in-out;
     text-shadow: #000000;
     color: white;
@@ -130,22 +130,6 @@ body {
   margin-bottom:1em;
  display:inline-block;
   }
-  .Tetris:hover{
-    transform: scale(1.1); 
-  }
-  .Minecraft:hover{
-    transform: scale(1.1);
-  }
-  .Snake:hover{
-    transform: scale(1.1);
-  }
-  .buttons{ 
-    text-align: center;      
-  }
-  .archive:hover{ 
-    transform: scale(1.1);
-
-  }
   .archive{
     transition: all .2s ease-in-out;
     text-shadow: #000000;
@@ -162,5 +146,16 @@ body {
   margin-top:1em;
   margin-bottom:1em;
  display:inline-block;
- 
+} 
+ .archive:hover{
+  transform: scale(1.1);
+ }
+  .macgames:hover{
+    transform: scale(1.1); 
+  }
+  .crayons:hover{
+    transform: scale(1.1);
+  }
+  .buttons{ 
+    text-align: center;
   }

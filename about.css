@@ -39,7 +39,7 @@ body {
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-image: url(img/Gradient2.png);
+    background-color: #3b3737;
     background-size: cover;
   }
   
